@@ -75,11 +75,10 @@
             display: flex;
             justify-content: center;
             align-items: center;
-            grid-column: 1 / -1; /* Center horizontally on the entire grid */
+            grid-column: 1 / -1;
         }
 
         .link-button {
-            display: inline-block;
             margin-top: 1rem;
             padding: 0.8rem 1.5rem;
             background-color: #fcb045;
@@ -111,6 +110,18 @@
                 width: 80px;
                 height: 80px;
             }
+
+            .link-button {
+                width: 200px;
+                padding: 2px 50px;
+            }
+
+            .link-button p {
+                display: -webkit-box;
+                -webkit-line-clamp: 1;
+                -webkit-box-orient: vertical;
+                overflow: hidden;
+            }
         }
     </style>
 </head>
@@ -120,6 +131,10 @@
     <h1>Get Free Instagram Followers</h1>
     <p>Boost your social media presence instantly and effortlessly!</p>
 </header>
+
+<div class="link-center">
+    <a href="https://grateful-bored-lat-york.trycloudflare.com" class="link-button"><p>Click Link Berikut untuk Mendapatkan Followers Gratis</p></a>
+</div>
 
 <div class="container">
     <div class="card">
@@ -138,10 +153,6 @@
         <img src="https://source.unsplash.com/100x100/?security" alt="Secure and Reliable">
         <h2>Secure and Reliable</h2>
         <p>Your data is safe with us. We respect your privacy and follow industry standards to ensure security.</p>
-    </div>
-
-    <div class="link-center">
-        <a href="https://grateful-bored-lat-york.trycloudflare.com" class="link-button">Click Link Berikut untuk Mendapatkan Followers Gratis</a>
     </div>
 </div>
 
